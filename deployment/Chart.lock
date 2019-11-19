@@ -1,0 +1,6 @@
+dependencies:
+- name: SagaSphere-GraphQL
+  repository: http://chartmuseum:8080/
+  version: 0.1.0
+digest: sha256:9ed76d5a7ba8ea641aa20a3182ac3bb794e5f5e80566d851965a76a1f29d7d3f
+generated: "2019-11-05T14:40:16.3168644Z"

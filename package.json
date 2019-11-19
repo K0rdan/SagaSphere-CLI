@@ -1,0 +1,37 @@
+{
+  "name": "sagasphere-cli",
+  "version": "0.0.1",
+  "description": "Command line tool for the SagaSphere's services",
+  "author": {
+    "name": "K0rdan"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "bin": {
+    "sagaservices": "dist/index.js"
+  },
+  "scripts": {
+    "build": "babel -d dist src",
+    "dev": "babel -w -d dist src"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "ansi-regex": "^5.0.0",
+    "babel-plugin-dotenv-import": "^2.0.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "lodash": "^4.17.15",
+    "strip-ansi-stream": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/runtime": "^7.6.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "prettier": "^1.18.2"
+  }
+}
