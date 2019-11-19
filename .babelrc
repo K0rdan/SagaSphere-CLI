@@ -1,0 +1,37 @@
+{
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "commands": "./src/commands",
+          "utils": "./src/utils"
+        }
+      }
+    ],
+    [
+      "dotenv-import",
+      {
+        "moduleName": "@env",
+        "path": ".env",
+        "blacklist": null,
+        "whitelist": null,
+        "safe": false,
+        "allowUndefined": false
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ],
+  "sourceMaps": true
+}
