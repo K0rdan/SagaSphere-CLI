@@ -1,10 +1,9 @@
 {
-  "name": "sagasphere-cli",
+  "name": "@sagasphere/cli",
   "version": "0.0.1",
   "description": "Command line tool for the SagaSphere's services",
-  "author": {
-    "name": "K0rdan"
-  },
+  "repository": "https://github.com/K0rdan/SagaSphere-CLI.git",
+  "author": "K0rdan",
   "license": "MIT",
   "main": "src/index.js",
   "bin": {
