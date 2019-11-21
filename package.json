@@ -1,6 +1,6 @@
 {
   "name": "@sagasphere/cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command line tool for the SagaSphere's services",
   "repository": "https://github.com/K0rdan/SagaSphere-CLI.git",
   "author": "K0rdan",
