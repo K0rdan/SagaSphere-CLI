@@ -7,11 +7,11 @@
   "license": "MIT",
   "main": "src/index.js",
   "bin": {
-    "sagaservices": "dist/index.js"
+    "sagaservices": "bin/index.js"
   },
   "scripts": {
-    "build": "babel -d dist src",
-    "dev": "babel -w -d dist src"
+    "build": "babel -d bin src",
+    "dev": "babel -w -d bin src"
   },
   "dependencies": {
     "@babel/cli": "^7.6.4",
