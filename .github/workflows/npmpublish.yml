@@ -24,7 +24,7 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: |
-          yarn install -g babel
+          yarn global add babel
           yarn install
           yarn build
           yarn publish --access public
